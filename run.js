@@ -3,7 +3,7 @@
 const fs = require("fs");
 const path = require("path");
 const esbuild = require("esbuild");
-const express = require("express");
+const express = require("express"); //Web backend
 const ws = require("ws"); //WebSocket para multijugador
 const http = require("http"); //HHTP para el backend web
 const Database = require("@replit/database"); //Conectar base de datos
